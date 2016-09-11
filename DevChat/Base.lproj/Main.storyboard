@@ -59,16 +59,17 @@
                         <outlet property="cameraBtn" destination="56E-Oq-2PR" id="4qG-RI-GDS"/>
                         <outlet property="previewView" destination="7hM-Ee-AsO" id="1Qx-8U-sfn"/>
                         <outlet property="recordBtn" destination="Aff-PW-uzH" id="4Me-01-T2u"/>
+                        <segue destination="C1D-r5-cz0" kind="presentation" identifier="LoginVC" id="lSk-CF-JlS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="HbS-v7-dft">
             <objects>
-                <viewController id="C1D-r5-cz0" sceneMemberID="viewController">
+                <viewController id="C1D-r5-cz0" customClass="LoginVC" customModule="DevChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZLJ-vJ-s6b"/>
                         <viewControllerLayoutGuide type="bottom" id="2cL-3b-C1g"/>
